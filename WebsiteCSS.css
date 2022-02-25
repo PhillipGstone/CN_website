@@ -28,7 +28,7 @@ h1 {
     color: white;
 }
 body {
-    background-image: url("pictures/Gamingbackground.jpg");
+    background-image: url("pictures/gamingbackground.jpg");
     background-color:dodgerblue;
     background-position: center;
     background-repeat: repeat;
@@ -41,6 +41,8 @@ body {
     margin: 3px 700px 5px;
     text-align: center;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
 #header {
     background-color: rgba(0, 0, 0, 0.9);
@@ -58,7 +60,7 @@ table {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45% 
+    width: 80% 
 }
 #homepics {
     display: flex;
@@ -67,10 +69,14 @@ table {
 .tabletext {
     padding: 30px 40px 30px;
     margin: 50px 100px 50px;
+    width:50%;
 }
 .imagetd {
-    width: 50%;
+    width: 30%;
 }
 .textfont {
     font-family: Arial;
+}
+.thegamestable {
+    width: 80vw;
 }
